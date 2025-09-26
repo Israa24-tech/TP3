@@ -1,4 +1,13 @@
 def ajouter_noeud(G, lettre):
+    """_summary_
+
+    Args:
+        G (dictionnaire["str"]): 
+        lettre (str): 
+
+    Returns:
+        dict : 
+    """
     G.update({lettre : []})
     return G
 
